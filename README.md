@@ -58,32 +58,22 @@
 5. **Повідомлення** до коміту - що саме ви зберігаєте - має бути зрозумілим. На початку повідомлення вказувати:
 	- **номер** тікета (завдання) - номер у [таблиці](#lab_todo), що містить список спільних завдань та зауважень;
 	- **тему/компонент** до якого належить коміт. Наприклад:
+		- `#1, #3 shevchenko01: завдання виконано, звіт підготовлений до перевірки`
+		- `#2 task01: отформатирован текст и добавлены комментарии`
+		- `#4 Locator: алгоритм пошуку оптимізовано`
+		- `#4 task02: удалены лишние файлы`
+		- `#4 raeth: fix regression after [a002b90]`
 
-		```
-#1, #3 shevchenko01: завдання виконано, звіт підготовлений до перевірки
-#2 task01: отформатирован текст и добавлены комментарии
-#4 Locator: алгоритм пошуку оптимізовано
-#4 task02: удалены лишние файлы
-#4 raeth: fix regression after [a002b90]
-		```
-
-6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт. Наприклад, студент з особистим каталогом `shevchenko_taras`
+6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт. Наприклад, студент з особистим каталогом `shevchenko-taras`
 	- розробляє всі проекти у межах одного рішення *(Solution)* з назвою `shevchenko`;
 	- для проектів *Visual C++* двох лабораторних робіт використовує назви `shevchenko01`, `shevchenko02` і відповідні шляхи:
-
-		```
-shevchenko_taras/src/shevchenko01/shevchenko01.vcxproj
-shevchenko_taras/src/shevchenko02/shevchenko02.vcxproj
-		```
-
+		- `shevchenko_taras/src/shevchenko01/shevchenko01.vcxproj`
+		- `shevchenko_taras/src/shevchenko02/shevchenko02.vcxproj`
 	- для звітів використовує наступні шляхи і назви файлів:
-
-		```
-shevchenko_taras/doc/shevchenko01/shevchenko01.odt
-shevchenko_taras/doc/shevchenko01/shevchenko01.pdf
-shevchenko_taras/doc/shevchenko02/shevchenko02.odt
-shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
-		```
+		- `shevchenko_taras/doc/shevchenko01/shevchenko01.odt`
+		- `shevchenko_taras/doc/shevchenko01/shevchenko01.pdf`
+		- `shevchenko_taras/doc/shevchenko02/shevchenko02.odt`
+		- `shevchenko_taras/doc/shevchenko02/shevchenko02.pdf`
 
 7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища назви особистої директорії. Наприклад:
 	- загальне сховище має *Checkout URL:*
@@ -99,15 +89,15 @@ shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
 <span id="lab_report"></span>
 ## Звіт
 
-1. **Оформляється** українською мовою та надається у форматі [Markdown](https://ru.wikipedia.org/wiki/Markdown), або у вигляді електронних документів:
-	- що редагується *(docx/doc/odt/html)*,
+1. **Оформляється** українською мовою та надається у вигляді електронних документів:
+	- що редагується *(docx/doc/odt/html/md/txt)*;
 	- що зручно проглядається *(pdf/djvu/chm)*.
 
 2. **Формат** документа, що друкується:
 	- A4 з полями: **2.5 см** зліва, **2 см** праворуч, **2 см** зверху, **2 см** знизу;
 	- гарнітура: **Times New Roman**; кегль: **14**; міжрядковий інтервал: **одинарний**;
 	- відступ першого рядка абзацу: **1.27 см**; вирівнювання: **у ширину**;
-	- приклад див. у файлі [oop_appendix_2.pdf](https://www.assembla.com/spaces/khpi-oop/subversion/source/HEAD/!nfo/doc/oop_appendix_2.pdf?_format=raw).
+	- приклад див. у файлі [oop_appendix_2.pdf]().
 
 3. **Структура** звіту:
 
