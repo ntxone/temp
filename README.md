@@ -13,7 +13,7 @@
 
 1. [Visual Studio Community](https://www.visualstudio.com/free-developer-offers/) - інтегроване середовище розробки.
 
-2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](https://github.com/ntxone/temp/raw/master/doc/doxy.pdf)). Додатково встановити:
+2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. [рекомендації](https://github.com/ntxone/temp/raw/master/doc/doxy.pdf)). Додатково встановити:
 	- [Graphviz](http://www.graphviz.org/Download.php) - Graph Visualization Software;
 	- [Mscgen](http://www.mcternan.me.uk/mscgen/) - Message Sequence Chart Renderer.
 
@@ -112,7 +112,7 @@
 	- A4 з полями: **2.5 см** зліва, **2 см** праворуч, **2 см** зверху, **2 см** знизу;
 	- гарнітура: **Times New Roman**; кегль: **14**; міжрядковий інтервал: **одинарний**;
 	- відступ першого рядка абзацу: **1.27 см**; вирівнювання: **у ширину**;
-	- приклад див. у файлі [oop_appendix_2.pdf]().
+	- див. [приклад](https://github.com/ntxone/temp/raw/master/doc/report.pdf).
 
 3. **Структура** звіту:
 
