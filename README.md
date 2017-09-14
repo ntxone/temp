@@ -156,9 +156,9 @@
 
 ---
 
-## [Додатки](https://github.com/ntxone/temp/tree/master/doc)
+## Додатки
 
-Розміщуються в директорії `doc` вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/ntxone/temp.git/trunk/doc):
+Розміщуються в директорії [doc](https://github.com/ntxone/temp/tree/master/doc) вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/ntxone/temp.git/trunk/doc):
  
 `https://github.com/ntxone/temp.git/trunk/doc`
 
