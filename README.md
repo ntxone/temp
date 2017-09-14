@@ -136,15 +136,15 @@
 <span id="references"></span>
 ## Рекомендації
 
-- [The C++ Standards Committee](http://www.open-std.org/JTC1/SC22/WG21/).
-- [News, Status & Discussion about Standard C++](https://isocpp.org/).
-- [Coding Standards](https://isocpp.org/wiki/faq/coding-standards)
 - [C++ Reference](http://en.cppreference.com/).
 - [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).
 - [Standard C++ Library reference](http://www.cplusplus.com/reference/).
 - [C++ STL Tutorial](http://www.tutorialspoint.com/cplusplus/cpp_stl_tutorial.htm).
 - [Bjarne Stroustrup's homepage](http://www.stroustrup.com/).
 - [C++ 11 FAQ от Бьярна Страуструпа](http://sergeyteplyakov.blogspot.com/2012/05/c-11-faq.html).
+- [The C++ Standards Committee](http://www.open-std.org/JTC1/SC22/WG21/).
+- [News, Status & Discussion about Standard C++](https://isocpp.org/).
+- [Coding Standards](https://isocpp.org/wiki/faq/coding-standards).
 
 ---
 
