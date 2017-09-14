@@ -13,7 +13,7 @@
 
 1. [Visual Studio Community](https://www.visualstudio.com/free-developer-offers/) - інтегроване середовище розробки.
 
-2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](https://github.com/ntxone/temp/raw/master/doc/doxy.pdf). Додатково встановити:
+2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](https://github.com/ntxone/temp/raw/master/doc/doxy.pdf)). Додатково встановити:
 	- [Graphviz](http://www.graphviz.org/Download.php) - Graph Visualization Software;
 	- [Mscgen](http://www.mcternan.me.uk/mscgen/) - Message Sequence Chart Renderer.
 
