@@ -90,14 +90,14 @@
 		
 		`shevchenko-taras/doc/shevchenko02/shevchenko02.pdf`
 
-7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища назви особистої директорії. Наприклад:
+7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища `/trunk` та назви особистої директорії. Наприклад:
 	- загальне сховище має *Checkout URL:*
 
-		`https://subversion.assembla.com/svn/kitXX-2016-cpp/`
+		`https://github.com/cpp-khpi/kitXX.git`
 
 	- тоді *Checkout URL* для доступу до особистої директорії *shevchenko-taras*:
 
-		`https://subversion.assembla.com/svn/kitXX-2016-cpp/shevchenko-taras`
+		`https://github.com/cpp-khpi/kitXX.git/trunk/shevchenko-taras`
 
 ---
 
