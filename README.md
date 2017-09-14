@@ -156,11 +156,11 @@
 
 ---
 
-## [Додатки]()
+## [Додатки](https://github.com/ntxone/temp/tree/master/doc)
 
-Розміщуються в директорії `!nfo/doc` вміст якої можна отримати, використовуючи наступный [Checkout URL]():
+Розміщуються в директорії `doc` вміст якої можна отримати, використовуючи наступный [Checkout URL](https://github.com/ntxone/temp.git/trunk/doc):
  
-`https://svn.code.sf.net/p/kit26a-cpp/code/!nfo/doc/`
+`https://github.com/ntxone/temp.git/trunk/doc`
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
