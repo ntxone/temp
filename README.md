@@ -95,9 +95,9 @@
 
 		`https://subversion.assembla.com/svn/kitXX-2016-cpp/`
 
-	- тоді *Checkout URL* для доступу до особистої директорії *shevchenko_taras*:
+	- тоді *Checkout URL* для доступу до особистої директорії *shevchenko-taras*:
 
-		`https://subversion.assembla.com/svn/kitXX-2016-cpp/shevchenko_taras`
+		`https://subversion.assembla.com/svn/kitXX-2016-cpp/shevchenko-taras`
 
 ---
 
