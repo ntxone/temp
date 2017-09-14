@@ -14,25 +14,22 @@
 <span id="soft"></span>
 ## Програмні засоби та інструменти
 
-1. [Visual Studio Community 2013 with Update 5](https://www.visualstudio.com/downloads/download-visual-studio-vs) - інтегроване середовище розробки.
+1. [Visual Studio Community](https://www.visualstudio.com/free-developer-offers/) - інтегроване середовище розробки.
 
-2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html) <span id="doxy"></span> - система документування початкового коду. Додатково встановити:
-
-	- [Graphviz](http://www.graphviz.org/Download_windows.php) - Graph Visualization Software;
+2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](https://sourceforge.net/p/se-khpi/code/HEAD/tree/doc/doxy.pdf?format=raw)). Додатково встановити:
+	- [Graphviz](http://www.graphviz.org/Download.php) - Graph Visualization Software;
 	- [Mscgen](http://www.mcternan.me.uk/mscgen/) - Message Sequence Chart Renderer.
 
 3. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="SVN-репозиторій використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion (SVN) client. В лабораторіях ОЦ НТУ "ХПІ" включити використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
-
 	- Enable Proxy Server;
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
 
-4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="SVN-репозиторій використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting Started](https://www.visualsvn.com/visualsvn/getting-started/).
+4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="SVN-репозиторій використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/).
 
-5. [SVN Hosting](https://www.assembla.com) <sup><abbr title="Веб-сервіс управління версіями використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
-
+5. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
 	- потрібна попередня реєстрація [GET STARTED WITH FREE REPOSITORIES](https://www.assembla.com/repositories);
-	- при реєстрації обов'язково вказувати **Username** у вигляді **surname_name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport);
+	- при реєстрації обов'язково вказувати **Username** у вигляді **surname-name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport);
 
 ---
 
@@ -52,7 +49,6 @@
 ## Вимоги
 
 1. **Проекти** розміщувати в директоріях `surname_name/src/surnameXX`, де:
-
 	- *surname_name* - назва особистої директорії в спільному сховищі *Subversion*;
 	- *XX* - номер роботи.
 
@@ -63,7 +59,6 @@
 4. **Коментувати** текст програми [для обробки пакетом Doxygen](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/doxy.pdf?_format=raw).
 
 5. **Повідомлення** до коміту - що саме ви зберігаєте - має бути зрозумілим. На початку повідомлення вказувати:
-
 	- **номер** тікета (завдання) - номер у [таблиці](#lab_todo), що містить список спільних завдань та зауважень;
 	- **тему/компонент** до якого належить коміт. Наприклад:
 
@@ -75,10 +70,7 @@
 #4 raeth: fix regression after [a002b90]
 		```
 
-6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт.
-
-	Наприклад, студент з особистим каталогом `shevchenko_taras`
-
+6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт. Наприклад, студент з особистим каталогом `shevchenko_taras`
 	- розробляє всі проекти у межах одного рішення *(Solution)* з назвою `shevchenko`;
 	- для проектів *Visual C++* двох лабораторних робіт використовує назви `shevchenko01`, `shevchenko02` і відповідні шляхи:
 
@@ -97,7 +89,6 @@ shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
 		```
 
 7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища назви особистої директорії. Наприклад:
-
 	- загальне сховище має *Checkout URL:*
 
 		`https://subversion.assembla.com/svn/kitXX-2016-cpp/`
@@ -112,12 +103,10 @@ shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
 ## Звіт
 
 1. **Оформляється** українською мовою та надається у форматі [Markdown](https://ru.wikipedia.org/wiki/Markdown), або у вигляді електронних документів:
-
 	- що редагується *(docx/doc/odt/html)*,
 	- що зручно проглядається *(pdf/djvu/chm)*.
 
 2. **Формат** документа, що друкується:
-
 	- A4 з полями: **2.5 см** зліва, **2 см** праворуч, **2 см** зверху, **2 см** знизу;
 	- гарнітура: **Times New Roman**; кегль: **14**; міжрядковий інтервал: **одинарний**;
 	- відступ першого рядка абзацу: **1.27 см**; вирівнювання: **у ширину**;
@@ -129,12 +118,12 @@ shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
 |:--------------------|:-----------|
 | **Номер і тема роботи** | Вказується з вирівнюванням по центру рядка. |
 | **Мета: ...** | Відповідає темі та завданню. |
-| **1 ІНДИВІДУАЛЬНЕ ЗАВДАННЯ** | Повне формулювання завдання. |
-| **2 РОЗРОБКА ПРОГРАМИ** | Особливості рішення, структура проекту, схеми та ілюстрації. |
-| **&nbsp;&nbsp;&nbsp;2.1 Засоби ООП** | Особливості ООП, що використовувалися. |
-| **&nbsp;&nbsp;&nbsp;2.2 Опис програми** | Коментарі до програми. |
-| **&nbsp;&nbsp;&nbsp;2.3 Важливі фрагменти програми** | Частини тексту програми, що демонструють рішення задачі. |
-| **3 РЕЗУЛЬТАТИ РОБОТИ** | Копії екрану (screenshots) та їхній опис. |
+| **1 ВИМОГИ** | Повне формулювання завдання. |
+| **2 ОПИС ПРОГРАМИ** |  Внутрішня робота програми, її поведінка: калькулювання даних, обробка даних та інші функції програми. |
+| **2.1 Функціональне призначення** | Призначення програми. Обмеження на застосування. |
+| **2.2 Опис логічної структури** | Алгоритм програми. Використовувані методи. Структура програми. |
+| **2.3 Важливі фрагменти програми** | Частини тексту програми, що демонструють рішення задачі. |
+| **3 Сценарій використання** | Опис поведінки програми ("хто" і "що" може зробити). Відповідає [функціональним вимогам](https://uk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%96_%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3%D0%B8). Ілюструється за допомогою копій екрану з описом. |
 | **ВИСНОВКИ** | Заключення стосовно повноти досягнення мети. |
 
 ---
