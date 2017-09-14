@@ -148,6 +148,14 @@
 
 ---
 
+## Online Compilers and IDEs
+
+- [JDoodle](https://www.jdoodle.com/). Easy and Quick way to run Programs Online.
+- [GDB Online](https://www.onlinegdb.com/). Online compiler and debugger tool for C/C++ languages.
+- [Coding Ground](https://www.tutorialspoint.com/codingground.htm). An online Lab for IT Professionals.
+
+---
+
 ## [Додатки]()
 
 Розміщуються в директорії `!nfo/doc` вміст якої можна отримати, використовуючи наступный [Checkout URL]():
