@@ -13,16 +13,16 @@
 
 1. [Visual Studio Community](https://www.visualstudio.com/free-developer-offers/) - інтегроване середовище розробки.
 
-2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](https://sourceforge.net/p/se-khpi/code/HEAD/tree/doc/doxy.pdf?format=raw)). Додатково встановити:
+2. [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html#srcbin) <span id="doxy"></span> - система документування початкового коду (див. файл [doxy.pdf](). Додатково встановити:
 	- [Graphviz](http://www.graphviz.org/Download.php) - Graph Visualization Software;
 	- [Mscgen](http://www.mcternan.me.uk/mscgen/) - Message Sequence Chart Renderer.
 
-3. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="SVN-репозиторій використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion (SVN) client. В лабораторіях ОЦ НТУ "ХПІ" включити використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
+3. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion (SVN) client. В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
 	- Enable Proxy Server;
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
 
-4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="SVN-репозиторій використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/).
+4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/).
 
 5. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
 	- потрібна попередня реєстрація [GET STARTED WITH FREE REPOSITORIES](https://www.assembla.com/repositories);
@@ -45,15 +45,15 @@
 <span id="lab_requirements"></span>
 ## Вимоги
 
-1. **Проекти** розміщувати в директоріях `surname_name/src/surnameXX`, де:
-	- *surname_name* - назва особистої директорії в спільному сховищі *Subversion*;
+1. **Проекти** розміщувати в директоріях `surname-name/src/surnameXX`, де:
+	- *surname-name* - назва особистої директорії в спільному сховищі *Subversion*;
 	- *XX* - номер роботи.
 
-2. **Початковий** код розташовувати в репозиторії лише той, що успішно компілюється та відповідає [Coding Conventions](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/cpp_coding_conventions.pdf?_format=raw).
+2. **Початковий** код розташовувати в репозиторії лише той, що успішно компілюється та відповідає [Coding Conventions]().
 
-3. **Звіти** розташовувати в директоріях `surname_name/doc/surnameXX`.
+3. **Звіти** розташовувати в директоріях `surname-name/doc/surnameXX`.
 
-4. **Коментувати** текст програми [для обробки пакетом Doxygen](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/doxy.pdf?_format=raw).
+4. **Коментувати** текст програми для обробки пакетом [Doxygen](#doxy).
 
 5. **Повідомлення** до коміту - що саме ви зберігаєте - має бути зрозумілим. На початку повідомлення вказувати:
 	- **номер** тікета (завдання) - номер у [таблиці](#lab_todo), що містить список спільних завдань та зауважень;
@@ -155,4 +155,4 @@ shevchenko_taras/doc/shevchenko02/shevchenko02.pdf
 
 1. <span id="note_svn"></span>*SVN-репозиторій* та веб-сервіс управління версіями використовувати за розсудом викладача.
 
-2. <span id="note_summary"></span>Уточнення завдання і засобів розробки за розсудом викладача.
+2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
