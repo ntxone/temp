@@ -145,14 +145,17 @@
 
 ---
 
-## Практичні завдання
+## [Додатки]()
 
-| № | Файл |
-|:--|:-----|
-| [3](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr03.md) | [pr03.pdf](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr03.pdf?_format=raw) |
-| [4](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr04.md) | [pr04.pdf](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr04.pdf?_format=raw) |
-| [5](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr05.md) | [pr05.pdf](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr05.pdf?_format=raw) |
-| [6](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr06.md) | [pr05.pdf](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr06.pdf?_format=raw) |
+Розміщуються в директорії `!nfo/doc` вміст якої можна отримати, використовуючи наступный [Checkout URL]():
+ 
+`https://svn.code.sf.net/p/kit26a-cpp/code/!nfo/doc/`
+
+|  №  | Файл | Зміст |
+|:---:|:-----|:------|
+|  1  | [cpp_coding_conventions.pdf]() | C++ Coding Conventions. Рекомендується до використання |
+|  2  | [doxy.pdf]() | Рекомендації до використання [Doxygen](#doxy) |
+|  3  | [oop_appendix_2.pdf]() | Приклад альбому звітів |
 
 ---
 
