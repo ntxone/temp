@@ -49,7 +49,7 @@
 	- *surname-name* - назва особистої директорії в спільному сховищі *Subversion*;
 	- *XX* - номер роботи.
 
-2. **Початковий** код розташовувати в репозиторії лише той, що успішно компілюється та відповідає [Coding Conventions]().
+2. **Початковий** код розташовувати в репозиторії лише той, що успішно компілюється та відповідає [Coding Conventions](https://github.com/ntxone/temp/raw/master/doc/cpp_coding_conventions.pdf).
 
 3. **Звіти** розташовувати в директоріях `surname-name/doc/surnameXX`.
 
@@ -164,9 +164,9 @@
 
 |  №  | Файл | Зміст |
 |:---:|:-----|:------|
-|  1  | [cpp_coding_conventions.pdf]() | C++ Coding Conventions. Рекомендується до використання |
-|  2  | [doxy.pdf]() | Рекомендації до використання [Doxygen](#doxy) |
-|  3  | [oop_appendix_2.pdf]() | Приклад альбому звітів |
+|  1  | [cpp_coding_conventions.pdf](https://github.com/ntxone/temp/raw/master/doc/cpp_coding_conventions.pdf) | Правила оформлення коду |
+|  2  | [doxy.pdf](https://github.com/ntxone/temp/raw/master/doc/doxy.pdf) | Рекомендації до використання [Doxygen](#doxy) |
+|  3  | [report.pdf](https://github.com/ntxone/temp/raw/master/doc/report.pdf) | Приклад альбому звітів |
 
 ---
 
