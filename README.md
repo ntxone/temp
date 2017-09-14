@@ -25,7 +25,7 @@
 4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/).
 
 5. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
-	- потрібна попередня реєстрація [GET STARTED WITH FREE REPOSITORIES](https://www.assembla.com/repositories);
+	- потрібна попередня [реєстрація](https://github.com/join);
 	- при реєстрації обов'язково вказувати **Username** у вигляді **surname-name** - прізвище та ім'я розробника [латинкою в нижньому регістрі](http://translit.kh.ua/?lat&passport);
 
 ---
