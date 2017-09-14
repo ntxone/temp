@@ -58,22 +58,22 @@
 5. **Повідомлення** до коміту - що саме ви зберігаєте - має бути зрозумілим. На початку повідомлення вказувати:
 	- **номер** тікета (завдання) - номер у [таблиці](#lab_todo), що містить список спільних завдань та зауважень;
 	- **тему/компонент** до якого належить коміт. Наприклад:
-		- `#1, #3 shevchenko01: завдання виконано, звіт підготовлений до перевірки`
-		- `#2 task01: отформатирован текст и добавлены комментарии`
-		- `#4 Locator: алгоритм пошуку оптимізовано`
-		- `#4 task02: удалены лишние файлы`
-		- `#4 raeth: fix regression after [a002b90]`
+		`#1, #3 shevchenko01: завдання виконано, звіт підготовлений до перевірки`
+		`#2 task01: отформатирован текст и добавлены комментарии`
+		`#4 Locator: алгоритм пошуку оптимізовано`
+		`#4 task02: удалены лишние файлы`
+		`#4 raeth: fix regression after [a002b90]`
 
 6. **Назву** особистої директорії *surname* з відповідним номером роботи *XX* використовувати для іменування директорій **рішень**, **проектів** і **звітів** лабораторних робіт. Наприклад, студент з особистим каталогом `shevchenko-taras`
 	- розробляє всі проекти у межах одного рішення *(Solution)* з назвою `shevchenko`;
 	- для проектів *Visual C++* двох лабораторних робіт використовує назви `shevchenko01`, `shevchenko02` і відповідні шляхи:
-		- `shevchenko_taras/src/shevchenko01/shevchenko01.vcxproj`
-		- `shevchenko_taras/src/shevchenko02/shevchenko02.vcxproj`
+		`shevchenko-taras/src/shevchenko01/shevchenko01.vcxproj`
+		`shevchenko-taras/src/shevchenko02/shevchenko02.vcxproj`
 	- для звітів використовує наступні шляхи і назви файлів:
-		- `shevchenko_taras/doc/shevchenko01/shevchenko01.odt`
-		- `shevchenko_taras/doc/shevchenko01/shevchenko01.pdf`
-		- `shevchenko_taras/doc/shevchenko02/shevchenko02.odt`
-		- `shevchenko_taras/doc/shevchenko02/shevchenko02.pdf`
+		`shevchenko-taras/doc/shevchenko01/shevchenko01.odt`
+		`shevchenko-taras/doc/shevchenko01/shevchenko01.pdf`
+		`shevchenko-taras/doc/shevchenko02/shevchenko02.odt`
+		`shevchenko-taras/doc/shevchenko02/shevchenko02.pdf`
 
 7. **Checkout URL** для доступу до особистої директорії формується додаванням до *Checkout URL* спільного сховища назви особистої директорії. Наприклад:
 	- загальне сховище має *Checkout URL:*
@@ -131,6 +131,7 @@
 ---
 
 ## Практичні завдання
+
 | № | Файл |
 |:--|:-----|
 | [3](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr03.md) | [pr03.pdf](https://www.assembla.com/spaces/kit25a-2016-cpp/subversion/source/HEAD/!nfo/doc/pr03.pdf?_format=raw) |
