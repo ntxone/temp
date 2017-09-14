@@ -22,7 +22,7 @@
 	- Server address: `172.17.10.2`;
 	- Port: `3128`.
 
-4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/).
+4. [VisualSVN](https://www.visualsvn.com/visualsvn/download/) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion integration plug-in for Visual Studio. [Getting started...](https://www.visualsvn.com/visualsvn/getting-started/)
 
 5. [SVN Hosting](https://github.com) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - веб-сервіс управління версіями:
 	- потрібна попередня [реєстрація](https://github.com/join);
