@@ -21,7 +21,7 @@
 
 ### Додаткові
 
-3. [Cppcheck](http://cppcheck.sourceforge.net/) - статичний аналізатор коду мовою C/C++. Призначений для пошуку помилок, які не виявляються компилятором.
+3. [Cppcheck](http://cppcheck.sourceforge.net/)<span id="cppcheck"></span> - статичний аналізатор C/C++ коду, призначений для пошуку помилок, які не виявляються компилятором.
 
 4. [TortoiseSVN](http://tortoisesvn.net/downloads.html) <sup><abbr title="Використовувати за розсудом викладача">[1](#note_svn)</abbr></sup> - Subversion (SVN) client. В лабораторіях ОЦ НТУ "ХПІ" активувати використання *proxy-сервера* в меню *TortoiseSVN/Settings/Network*:
 	- Enable Proxy Server;
@@ -36,15 +36,15 @@
 
 ### Альтернативні
 
-7. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Примітка 1">[1](#note_cdt)</abbr></sup> - середовище розробки програм мовою [C++](http://isocpp.org/) ([C++ reference](http://en.cppreference.com/w/), [C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
+7. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[1](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
 
-	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (див. файл [se_appendix_1.pdf](https://sourceforge.net/p/se-khpi/code/HEAD/tree/doc/se_appendix_1.pdf?format=raw)).
+	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 	<span id="eclipse"></span>Додатково встановити:
-	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in which provides support for Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
+	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
 		- Subclipse;
 		- Subversion JavaHL Windows Native DLL's;
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in which integrates [cppcheck](http://cppcheck.sourceforge.net/) with the CDT project ([Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)).
+	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [cppcheck](#cppcheck). [Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)
 
 8. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор. Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується. Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/). Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([Install guide](https://github.com/msys2/msys2/wiki/MSYS2-installation)). ВАЖЛИВО: налаштувати змінну середовища `PATH` <sup><abbr title="Eclipse* використовує значення змінних середовища: `PATH`, `MINGW_HOME`, `MSYS_HOME`">[2](#note_msys)</abbr></sup> - додати шлях до директорії `bin` встановленого *GCC/MinGW* (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених *JDK, Eclipse* та *GCC/MinGW* повинна бути однаковою.
 
@@ -198,7 +198,7 @@
 2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
 
 3. <span id="note_cdt"></span>Замість готового пакету, має сенс зібрати *Eclipse* для *C++* самостійно, виключити непотрібні модулі та забезпечити високу швидкість завантаження й мінімальний час відгуку інтерфейсу:
-	- [Завантажити](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) та встановити **Java SE Development Kit 8**, відповідно визначивши змінні середовища оточення `JAVA_HOME` і `path`.
+	- [Завантажити](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) та встановити **Java SE Development Kit 8**, відповідно визначивши змінні середовища оточення `JAVA_HOME` і `PATH`.
 	- [Завантажити](http://download.eclipse.org/eclipse/downloads/) чистий **Eclipse Platform Runtime Binary** стабільної версії, наприклад, [eclipse-platform-4.7](http://download.eclipse.org/eclipse/downloads/drops4/R-4.7-201706120950/#PlatformRuntime) (розрядність повинна відповідати JDK) і розпакувати архів (для ОС Windows - в кореневий каталог логічного диска).
 	- Використовуючи [Eclipse Oxygen update site URL](http://download.eclipse.org/releases/oxygen/), в Eclipse за допомогою меню *Help/Install New Software...* встановити наступні модулі:
 		- в розділі *Linux Tools* компонент *GCov Integration*;
