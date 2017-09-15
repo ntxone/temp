@@ -51,7 +51,7 @@
 	- Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
 	- Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([MSYS2 installation](https://github.com/msys2/msys2/wiki/MSYS2-installation)).
 	
-	ВАЖЛИВО<sup><abbr title="Eclipse використовує значення змінних середовища: `PATH`, `MINGW_HOME`, `MSYS_HOME`">[3](#note_msys)</abbr></sup>: налаштувати змінну середовища `PATH` - додати шлях до директорії `bin` встановленого GCC/MinGW (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених JDK, Eclipse та GCC/MinGW повинна бути однаковою.
+	ВАЖЛИВО: <sup><abbr title="Eclipse використовує значення змінних середовища: `PATH`, `MINGW_HOME`, `MSYS_HOME`">[3](#note_msys)</abbr></sup> налаштувати змінну середовища `PATH` - додати шлях до директорії `bin` встановленого GCC/MinGW (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених JDK, Eclipse та GCC/MinGW повинна бути однаковою.
 
 ---
 
