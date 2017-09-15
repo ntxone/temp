@@ -36,7 +36,7 @@
 
 ### Альтернативні
 
-7. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[1](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
+7. [Eclipse IDE for C/C++ Developers](http://www.eclipse.org/downloads/eclipse-packages/) <sup><abbr title="Налаштування власноруч">[2](#note_cdt)</abbr></sup> - середовище розробки програм мовою C/C++ ([C/C++ Software Development with Eclipse](http://eclipsebook.in/)).
 
 	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
@@ -44,9 +44,14 @@
 	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in, що підтримує Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
 		- Subclipse;
 		- Subversion JavaHL Windows Native DLL's;
-	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [cppcheck](#cppcheck). [Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)
+	- [Cppcheclipse Eclipse update site URL](https://dl.bintray.com/cppcheclipse/p2/updates/) - Eclipse plug-in, що підтримує [Cppcheck](#cppcheck). [Getting started...](https://github.com/kwin/cppcheclipse/wiki/GetStarted)
 
-8. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор. Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується. Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/). Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([Install guide](https://github.com/msys2/msys2/wiki/MSYS2-installation)). ВАЖЛИВО: налаштувати змінну середовища `PATH` <sup><abbr title="Eclipse* використовує значення змінних середовища: `PATH`, `MINGW_HOME`, `MSYS_HOME`">[2](#note_msys)</abbr></sup> - додати шлях до директорії `bin` встановленого *GCC/MinGW* (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених *JDK, Eclipse* та *GCC/MinGW* повинна бути однаковою.
+8. [GNU C++](https://uk.wikipedia.org/wiki/GNU_Compiler_Collection) компілятор.
+	- Спосіб №1: завантажити з [сайту](http://www.equation.com/servlet/equation.cmd?fa=fortran) ISO-образ відповідної версії та виконати з нього встановлення, або використати архів, що саморозпаковується.
+	- Спосіб №2: розпакувати в кореневу директорію [MinGW-w64](https://uk.wikipedia.org/wiki/MinGW#MinGW-w64) відповідної версії для платформи [Win32](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/) чи [Win64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
+	- Спосіб №3: скористатися [MSYS2 online installer](http://msys2.github.io/) ([MSYS2 installation](https://github.com/msys2/msys2/wiki/MSYS2-installation)).
+	
+	ВАЖЛИВО: <sup><abbr title="Eclipse* використовує значення змінних середовища: `PATH`, `MINGW_HOME`, `MSYS_HOME`">[3](#note_msys)</abbr></sup> налаштувати змінну середовища `PATH` - додати шлях до директорії `bin` встановленого *GCC/MinGW* (наприклад: `D:\mingw64\bin`, або `D:\gcc\bin`). Розрядність (32 або 64) встановлених *JDK, Eclipse* та *GCC/MinGW* повинна бути однаковою.
 
 ---
 
@@ -55,7 +60,7 @@
 
 |  №  | Завдання |
 |:---:|:---------|
-|  1  | Розробити програму для рішення індивідуального завдання <sup><abbr title="Уточнення завдання за розсудом викладача">[2](#note_summary)</abbr></sup>. |
+|  1  | Розробити програму для рішення індивідуального завдання <sup><abbr title="Уточнення завдання за розсудом викладача">[4](#note_summary)</abbr></sup>. |
 |  2  | Виконати [рефакторинґ](https://refactoring.guru/) з урахуванням загальних [вимог](#lab_requirements). |
 |  3  | Підготувати до перевірки опис розробленої програми у вигляді [звіту](#lab_report). |
 |  4  | Виправити програму з урахуванням отриманих зауважень. |
@@ -195,9 +200,7 @@
 
 1. <span id="note_svn"></span>*SVN-репозиторій* та веб-сервіс управління версіями використовувати за розсудом викладача.
 
-2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
-
-3. <span id="note_cdt"></span>Замість готового пакету, має сенс зібрати *Eclipse* для *C++* самостійно, виключити непотрібні модулі та забезпечити високу швидкість завантаження й мінімальний час відгуку інтерфейсу:
+2. <span id="note_cdt"></span>Замість готового пакету, має сенс зібрати *Eclipse* для *C++* самостійно, виключити непотрібні модулі та забезпечити високу швидкість завантаження й мінімальний час відгуку інтерфейсу:
 	- [Завантажити](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) та встановити **Java SE Development Kit 8**, відповідно визначивши змінні середовища оточення `JAVA_HOME` і `PATH`.
 	- [Завантажити](http://download.eclipse.org/eclipse/downloads/) чистий **Eclipse Platform Runtime Binary** стабільної версії, наприклад, [eclipse-platform-4.7](http://download.eclipse.org/eclipse/downloads/drops4/R-4.7-201706120950/#PlatformRuntime) (розрядність повинна відповідати JDK) і розпакувати архів (для ОС Windows - в кореневий каталог логічного диска).
 	- Використовуючи [Eclipse Oxygen update site URL](http://download.eclipse.org/releases/oxygen/), в Eclipse за допомогою меню *Help/Install New Software...* встановити наступні модулі:
@@ -208,9 +211,10 @@
 			- *C/C++ Unit Testing Support*.
 	- Продовжити [встановлення та налаштування](#eclipse) компонентів.
 
-4. <span id="note_msys"></span>Для пошуку компілятора *Eclipse* використовує значення змінних середовища:
+3. <span id="note_msys"></span>Для пошуку компілятора *Eclipse* використовує значення змінних середовища:
 
 	`PATH`, `MINGW_HOME`, `MSYS_HOME`.
 
 	Для використанні *GNU C++* компілятора у складі *MSYS/MinGW* разом з *Eclipse* треба встановити коректні значення вищевказаних змінних.
 
+4. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
