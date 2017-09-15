@@ -40,7 +40,7 @@
 
 	За потребою, встановити [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (див. файл [se_appendix_1.pdf](https://sourceforge.net/p/se-khpi/code/HEAD/tree/doc/se_appendix_1.pdf?format=raw)).
 
-	Додатково встановити:
+	<span id="eclipse"></span>Додатково встановити:
 	- [Subclipse Eclipse update site URL](https://dl.bintray.com/subclipse/releases/subclipse/latest/) - Eclipse plug-in which provides support for Subversion ([Project wiki](https://github.com/subclipse/subclipse/wiki)). Встановити компоненти:
 		- Subclipse;
 		- Subversion JavaHL Windows Native DLL's;
@@ -197,7 +197,18 @@
 
 2. <span id="note_summary"></span>Уточнення завдання та засобів розробки за розсудом викладача.
 
-3. <span id="note_msys"></span>Для пошуку компілятора *Eclipse* використовує значення змінних середовища:
+3. <span id="note_cdt"></span>Замість готового пакету, має сенс зібрати *Eclipse* для *C++* самостійно, виключити непотрібні модулі та забезпечити високу швидкість завантаження й мінімальний час відгуку інтерфейсу:
+	- [Завантажити](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) та встановити **Java SE Development Kit 8**, відповідно визначивши змінні середовища оточення `JAVA_HOME` і `path`.
+	- [Завантажити](http://download.eclipse.org/eclipse/downloads/) чистий **Eclipse Platform Runtime Binary** стабільної версії, наприклад, [eclipse-platform-4.7](http://download.eclipse.org/eclipse/downloads/drops4/R-4.7-201706120950/#PlatformRuntime) (розрядність повинна відповідати JDK) і розпакувати архів (для ОС Windows - в кореневий каталог логічного диска).
+	- Використовуючи [Eclipse Oxygen update site URL](http://download.eclipse.org/releases/oxygen/), в Eclipse за допомогою меню *Help/Install New Software...* встановити наступні модулі:
+		- в розділі *Linux Tools* компонент *GCov Integration*;
+		- в розділі *Programming Languages* компоненти:
+			- *C/C++ Development Tools*;
+			- *C/C++ Library API Documentation Hover Help*;
+			- *C/C++ Unit Testing Support*.
+	- Продовжити [встановлення та налаштування](#eclipse) компонентів.
+
+4. <span id="note_msys"></span>Для пошуку компілятора *Eclipse* використовує значення змінних середовища:
 
 	`PATH`, `MINGW_HOME`, `MSYS_HOME`.
 
