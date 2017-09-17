@@ -25,6 +25,7 @@ int main(void) {
 	unsigned int oddNumber = 0;
 	// Кількість двійкових одиниць.
 	unsigned int bitNumber = 0;
+
 	// Знаходження рішення прикладної задачі.
 	// Підрахунок кількості парних і непарних десяткових цифр.
 	// Копія початкового значення.
@@ -37,6 +38,7 @@ int main(void) {
 	}
 	evenNumber = digitNumber - oddNumber;
 	// Результат у змінних evenNumber та oddNumber.
+
 	// Підрахунок кількості двійкових одиниць.
 	copy = data;
 	while (copy > 0) {
@@ -44,5 +46,6 @@ int main(void) {
 		copy >>= 1;
 	}
 	// Результат у змінних evenNumber, oddNumber та bitNumber.
+
 	return 0;
 }
